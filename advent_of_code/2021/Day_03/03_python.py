@@ -4,7 +4,7 @@ import os
 
 
 def open_file():
-    i =  "/input.txt"
+    i =  "/test_case.txt"
     file_path = os.path.dirname(os.path.realpath(__file__)) + i
     with open(file_path,"r") as f:
         return f.read().splitlines()
@@ -48,13 +48,22 @@ def part_one(source):
 
     
     
-    ...
-
-
 def part_two(source):
     # part two:
+    oxygen_list = list(source)
     
+
+    for char in (range(len(oxygen_list[0]))):
+       
+        for line in source:
+            
+            ...
+
+            
+    print(oxygen_list)
+
     ...
+
 
 
 

@@ -39,32 +39,15 @@ def part_one(source):
             gamma += "0"
             epsilon += "1"
               
+    print(gamma)
 
+    return(int(gamma,2) * int(epsilon,2))
 
-    gamma = int(gamma,2)
-    epsilon = int(epsilon,2)
-
-    return(gamma * epsilon)
-
-    
     
 def part_two(source):
     # part two:
-    oxygen_list = list(source)
     
-
-    for char in (range(len(oxygen_list[0]))):
-       
-        for line in source:
-            
-            ...
-
-            
-    print(oxygen_list)
-
     ...
-
-
 
 
 if __name__ == "__main__":
